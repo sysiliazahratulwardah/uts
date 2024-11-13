@@ -23,12 +23,12 @@ const Ulasan = () => {
         {
             imageUrl: fm2Image,
         },
-        // Anda bisa menambahkan lebih banyak ulasan di sini
+    
     ];
 
     return (
         <div className="UlasanList">
-            <h1>ULASAN PELANGGAN</h1>
+            <h1>PELANGGAN</h1>
             {ulasanData.map((ulasan, index) => (
                 <UlasanList
                     key={index} 
