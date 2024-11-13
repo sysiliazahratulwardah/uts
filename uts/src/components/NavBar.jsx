@@ -1,0 +1,10 @@
+export function NavBar(){
+    return (
+        <div className="navbar">
+        <a href="#home">Beranda</a>
+        <a href="#facilities">Produk</a>
+        <a href="#testi">Ulasan</a>
+        <a href="#about">Tentang Kami</a>
+    </div>
+);
+}
