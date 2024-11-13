@@ -6,13 +6,6 @@ const Footer = () => {
         <footer className="footer">
             <div id ='about'className="container">
                 <div className="flex md:flex-row justify-center items-center gap-8">
-                    {/* Contact Section */}
-                    <div className="contact-section">
-                        <Phone className="icon" />
-                        <div>
-                            <p>+62 859-3504-4848</p>
-                        </div>
-                    </div>
                 </div>
 
                 {/* Map Section */}
@@ -29,6 +22,13 @@ const Footer = () => {
                         title="Rajasu Location"
                     ></iframe>
                 </div>
+                {/* Contact Section */}
+                    <div className="contact-section">
+                        <Phone className="icon" />
+                        <div>
+                            <p>+62 859-3504-4848</p>
+                        </div>
+                    </div>
 
                 <div className="text-center mt-8 text-sm">
                     <p>&copy; SYSILIA Z.W_STIKOM PGRI BANYUWANGI.</p>
