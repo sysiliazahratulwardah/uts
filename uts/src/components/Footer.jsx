@@ -1,4 +1,3 @@
-
 import { Phone,} from 'lucide-react';
 
 const Footer = () => {
@@ -22,14 +21,14 @@ const Footer = () => {
                         title="Rajasu Location"
                     ></iframe>
                 </div>
+
                 {/* Contact Section */}
-                    <div className="contact-section">
+                <div className="contact-section">
                         <Phone className="icon" />
                         <div>
                             <p>+62 859-3504-4848</p>
                         </div>
                     </div>
-
                 <div className="text-center mt-8 text-sm">
                     <p>&copy; SYSILIA Z.W_STIKOM PGRI BANYUWANGI.</p>
                 </div>
@@ -39,5 +38,8 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
 
 
