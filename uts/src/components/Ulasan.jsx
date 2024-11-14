@@ -18,12 +18,15 @@ const UlasanList = ({ title, description, imageUrl }) => {
 const Ulasan = () => {
     const ulasanData = [
         {
+            title: "Harga Terjangkau",
+            description: "Sangat cocok untuk pelajar!",
             imageUrl: fm1Image,
         },
         {
+            title: "Sangat Direkomendasikan!",
+            description: "Saya akan kembali lagi untuk membeli minuman di sini.",
             imageUrl: fm2Image,
         },
-    
     ];
 
     return (
